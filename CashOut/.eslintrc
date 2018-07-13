@@ -1,0 +1,16 @@
+{
+    "extends": "eslint-config-rallycoding",
+    "rules": {
+        "react/jsx-filename-extension": 0,
+        "react/jsx-closing-bracket-location": 0,
+        "space-before-blocks": 0,
+        "arrow-spacing": 0,
+        "react/jsx-space-before-closing": 0,
+        "global-require": 0,
+        "quote-props": 0,
+        "react/sort-comp": 0,
+        "quotes": 0,
+        "import/no-unresolved": 0,
+        "eol-last": 0,
+    }
+}
