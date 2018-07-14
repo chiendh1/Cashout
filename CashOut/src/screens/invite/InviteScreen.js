@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 import BaseView from '../../components/BaseView';
 import { IndicatorViewPager, PagerTitleIndicator } from 'rn-viewpager';
+import InviteFriendScreen from './InviteFriendScreen';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -15,9 +16,11 @@ class InviteScreen extends Component {
         >
 
 
-          <View style={{ backgroundColor: 'white' }}>
-            <Text>page one</Text>
+          <View style={{ backgroundColor: '#f5f5f5' }}>
+            <InviteFriendScreen />
           </View>
+
+
           <View style={{ backgroundColor: 'white' }}>
             <Text>page two</Text>
           </View>

@@ -9,23 +9,21 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const store = configureStore();
 
 Navigation.registerComponent(
-  'BigCoin.InviteScreen', () => InviteScreen,
+  'CashOut.InviteScreen', () => InviteScreen,
 );
 
- 
-
 Navigation.registerComponent(
-  'BigCoin.OfferScreen', () => OfferScreen,
-);
-
-
-Navigation.registerComponent(
-  'BigCoin.RewardScreen', () => RewardScreen,
+  'CashOut.OfferScreen', () => OfferScreen,
 );
 
 
 Navigation.registerComponent(
-  'BigCoin.SettingScreen', () => SettingScreen,
+  'CashOut.RewardScreen', () => RewardScreen,
+);
+
+
+Navigation.registerComponent(
+  'CashOut.SettingScreen', () => SettingScreen,
 );
 
 Promise.all([
@@ -37,7 +35,7 @@ Promise.all([
   Navigation.startTabBasedApp({
     tabs: [
       {
-        screen: 'BigCoin.OfferScreen',
+        screen: 'CashOut.OfferScreen',
         label: 'Offers',
         title: "Offers",
         icon: sources[0],
@@ -51,7 +49,7 @@ Promise.all([
         }
       },
       {
-        screen: 'BigCoin.InviteScreen',
+        screen: 'CashOut.InviteScreen',
         label: 'Invite',
         title: "Invite",
         icon: sources[1],
@@ -64,7 +62,7 @@ Promise.all([
         }
       },
       {
-        screen: 'BigCoin.RewardScreen',
+        screen: 'CashOut.RewardScreen',
         label: 'Rewards',
         title: "Rewards",
         icon: sources[2],
@@ -77,7 +75,7 @@ Promise.all([
         }
       },
       {
-        screen: 'BigCoin.SettingScreen',
+        screen: 'CashOut.SettingScreen',
         label: 'Settings',
         title: "Settings",
         icon: sources[3],
