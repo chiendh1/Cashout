@@ -5,8 +5,8 @@ import imgCoin from '../assets/ic_coin.png';
 class CoinView extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text style={styles.textStyle}> 40 </Text>
+            <View style={[styles.container, this.props.style]}>
+                <Text style={styles.textStyle}>{this.props.coin}</Text>
                 <Image
                     source={imgCoin}
                     style={styles.imageStyle}
@@ -21,18 +21,21 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#0000004d',
+        backgroundColor: '#00000040',
         borderRadius: 19,
         paddingRight: 1,
         paddingLeft: 5,
         paddingVertical: 1,
         marginHorizontal: 10,
+        height: 20
     },
     textStyle: {
         fontWeight: '600',
+        flex: 1,
+        paddingLeft: 3
     },
     imageStyle: {
-        width: 19, height: 19
+        width: 19, height: 19, marginLeft: 5
     }
 });
 

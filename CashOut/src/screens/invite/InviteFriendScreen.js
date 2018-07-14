@@ -26,11 +26,11 @@ class InviteFriendScreen extends Component {
                     >Share</Button>
                 </View>
 
-                <View style={{width: '100%', backgroundColor: 'white',  padding: 15, borderRadius: 5, marginTop: 15}}>
-                    <Text style={{alignSelf: 'center'}}>The Rewards</Text>
+                <View style={{ width: '100%', backgroundColor: 'white', padding: 15, borderRadius: 5, marginTop: 15 }}>
+                    <Text style={{ alignSelf: 'center' }}>The Rewards</Text>
                     <Text style={{ fontSize: 11, color: '#808080', marginTop: 10 }}>Your friend will earn 50 coins immediately after they enter your referral code.</Text>
                     <Text style={{ fontSize: 11, color: '#808080', marginTop: 5 }} >You will earn 100 coins plus 5 of all your friends future earnings, once your friend collects 200 coins.</Text>
-            </View>
+                </View>
             </View >
         );
     }

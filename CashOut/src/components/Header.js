@@ -13,7 +13,7 @@ class Header extends Component {
                     </View>
                     <View style={styles.rightButtonContainer}>
                         <Icon style={styles.notificationIconStyle} name="ios-notifications-outline" size={30} color='black' />
-                        <CoinView/>
+                        <CoinView coin={40}/>
                     </View>
 
                 </View>

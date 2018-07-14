@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "appName": "AirCombat: Race Challenge - Android",
+        "type": "app",
+        "icon": "",
+        "description": "Install and Launch",
+        "coin": 1000
+    },
+    {
+        "id": 1,
+        "appName": "Buble Bird Puzzle - Android",
+        "type": "app",
+        "icon": "",
+        "description": "Install and Launch",
+        "coin": 252
+    },
+    {
+        "id": 2,
+        "appName": "Anti-Theft Inc.",
+        "type": "app",
+        "icon": "",
+        "description": "Install and Launch",
+        "coin": 168
+    },
+    {
+        "id": 3,
+        "appName": "Lords Mobile",
+        "type": "app",
+        "icon": "",
+        "description": "Install, Open & Attack a Level 2 Monster",
+        "coin": 24
+    }
+]

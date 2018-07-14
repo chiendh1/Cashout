@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Dimensions } from 'react-native';
 import { IndicatorViewPager, PagerTitleIndicator } from 'rn-viewpager';
 import BaseView from '../../components/BaseView';
+import TopPickScreen from './TopPickScreen';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -17,7 +18,7 @@ class OfferScreen extends Component {
 
 
           <View style={{ backgroundColor: 'white' }}>
-            <Text>page one</Text>
+            <TopPickScreen/>
           </View>
           <View style={{ backgroundColor: 'white' }}>
             <Text>page two</Text>
